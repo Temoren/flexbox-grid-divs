@@ -97,37 +97,50 @@ textarea {
 
 
 html {
-  background-color: #fff;
-  height: 100%;
+    background-color: #fff;
+    height: 100%;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+37,90bff0+50,6ba8e5+51,a2daf5+83,bdf3fd+100;Blue+Gloss+%231 */
+    background: rgb(184,225,252); /* Old browsers */
+    background: -moz-linear-gradient(-50deg,  rgba(184,225,252,1) 0%, rgba(169,210,243,1) 10%, rgba(144,186,228,1) 25%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(107,168,229,1) 51%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-50deg,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(150deg,  rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2em;
+    font-size: 1.25em;
+    height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  display: flex;
-  font-weight: 700;
-  justify-content: space-between;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  align-items: center;
-  display: flex;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
-  justify-content: center;
-  width: 30%
+    align-items: center;
+    background-color: #f16059;
+    border-right: thick solid steelblue;
+    color: #FFFFFF;
+    display: flex;
+    font-size: .8em;
+    height: 300px;
+    justify-content: center;
+    line-height: 1.5em;
+    width: 30%;
 }
 
+p {
+    padding: 10%;
+    font-family: 'Chakra Petch', sans-serif;
+}
 
 
 
